@@ -1,4 +1,4 @@
-import { Controller, Get, Query, Req, UseGuards } from '@nestjs/common';
+import { Controller, Get, Query, Req } from '@nestjs/common';
 import { GetProductsQueryDto } from './dto/get-products-query.dto';
 import { ProductsService } from './products.service';
 
