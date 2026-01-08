@@ -1,0 +1,9 @@
+node_modules
+/dist
+.env
+.idea/
+
+npm-debug.log*
+npm-error.log*
+prisma/migrations/**/migration_lock.toml
+
