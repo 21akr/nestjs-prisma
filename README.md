@@ -1,7 +1,12 @@
 # OX GROUP NestJS test task
 
-## Setup
+## Setup db
 
+```bash
+docker compose up -d
+```
+
+## Setup
 ```bash
 npm i
 cp .env.example .env
