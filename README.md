@@ -1,13 +1,8 @@
 # OX GROUP NestJS test task
 
-## Setup db
-
-```bash
-docker compose up -d
-```
-
 ## Setup
 ```bash
+docker compose up -d
 npm i
 cp .env.example .env
 npm run prisma:migrate
